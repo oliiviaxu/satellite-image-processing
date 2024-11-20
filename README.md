@@ -155,4 +155,4 @@ Reads shapefile and raster, cropping shapefile based on bounds of a watermask
 Loads shapefile, useful for reading bounds, head, geometry, crs 
 
 ## Contact 
-If you have any questions about the algorithm, please don't hesitate to contact oxu@caltech.edu
+If you have any questions about the algorithm, please don't hesitate to contact dwang53@caltech.edu and oxu@caltech.edu.
