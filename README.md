@@ -3,21 +3,8 @@ SURFDeltaX is an open-source repository of pre-processing tools for data assimil
 
 Numerical models of land-building processes require a custom mesh describing the topography and hydrodynamics of wetland environments, and this codebase provides a framework for enhancing the accuracy of the input data (shapefiles) needed for computational mesh generation. 
 
-## Installation
-To use the SURFDeltaX toolkit, you need to have Python installed on your system. If you don't have Python, you can download and install it from the official Python website (https://www.python.org/downloads/).
-
-Once you have Python installed, you can install the required packages using pip, the Python package manager. Open a terminal or command prompt and run the following commands:
-
-pip install geopandas
-pip install shapely
-pip install numpy
-pip install rasterio
-pip install matplotlib
-
-Next, download the SURFDeltaX repository from the GitHub page. You can do this by clicking on the "Code" button and selecting "Download ZIP". Once the ZIP file is downloaded, extract its contents to a folder on your computer.Please ensure that you have the required shapefiles and raster files in the correct format (WSG 84 CRS) as mentioned in the Usage Guide section of the README. You can now use the provided scripts and functions on your shapefiles and raster files.
-
 ## Usage Guide
-To get started, ensure you have a Python code editor installed on your system, and use the scripts and the functions within on shapefiles and rasters. Ensure that you have the following files for shapefiles and rasters in WSG 84 CRS: .shp (Shapefile geometry), .dbf (Shapefile attributes), .prj (Coordinate system information), .shx (Shapefile index), .cpg (Character encoding file), and .tif (Raster data). This program relies on the following Python packages: geopandas, shapely.geometry, numpy, rasterio, matplotlib, and ensure that you have them installed on your system.
+Ensure that you have the following files for shapefiles and rasters in WSG 84 CRS: .shp (Shapefile geometry), .dbf (Shapefile attributes), .prj (Coordinate system information), .shx (Shapefile index), .cpg (Character encoding file), and .tif (Raster data). This program relies on the following Python packages: geopandas, shapely.geometry, numpy, rasterio, matplotlib, and ensure that you have them installed on your system.
 
 ## Automatic Channel Width Detection
 Automatic channel Width Detection is divided into these main functions: 
